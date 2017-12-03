@@ -1,0 +1,151 @@
+.button {
+    background-color: #008CBA;
+    border: none;
+	border-radius: 2px;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+}
+* {
+    box-sizing: border-box;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 4px 8px;
+    margin:0px 0px 6px 0px;
+    display: inline;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+body {
+	min-width: 550px;
+    min-height: 300px;
+    overflow-x: hidden;
+    font: 12px sans-serif;
+    /*padding: 10px 0 10px 0;*/
+    background: #EEE;
+}
+
+.checkbox, .tabArrayCheckbox, #newSessionId, #existingSessionId {
+	vertical-align: middle;
+}
+#newSessionId, #existingSessionId {
+    margin-top: -2px;
+}
+.savedSessionDiv{
+	margin-top: 10px;
+	border: 0px solid red;
+}
+html ul.tabLabels li.active, html ul.tabLabels li.active a:hover  {
+	background: rgba(255,255,255,0.8);
+	border-bottom: rgba(255,255,255,0.8);
+}
+
+.mainContainer {
+	width: 100%;
+	border: 1px solid rgba(255,255,255,0.8);
+	border-top: none;
+	margin-bottom: 20px;
+	overflow: hidden;
+	clear: both;
+	float: left; 
+	background: rgba(255,255,255,0.8);
+}
+.tabContent {
+	padding: 15px;
+	min-height: 200px;
+	max-height: 750px; 
+}
+.clear{
+	clear: both;
+}
+
+#currTabsList, #savedSessionsList{
+	width: 100%;
+	overflow-x: hidden;
+	min-height: 50px;
+	max-height: 230px;
+}
+.currTabItemContainter{
+	margin-bottom: 0px;
+	overflow: hidden;
+}
+.currTabItemContainter div{
+	float: left;
+}
+
+.currTabItemContainter div.indented{
+	width: 95%;
+	overflow: hidden;
+}
+
+.numBullet{
+	color: #79B319;
+	font-weight: bold;
+}
+.toggleIndividualDetailsLink{
+	float: left;
+	border: 1px solid grey;
+	margin-top: 2px;
+	margin-right: 2px;
+	font-size: 14px;
+	color: grey;
+	display: block;
+	padding-right: 1px;
+	padding-left: 1px;
+	line-height: 10px;
+	background: #fff;
+}
+.toggleIndividualDetailsLink:hover{
+	cursor: hand;
+}
+
+
+.panel div.newSessionPage, .panel div.savedSessionPage, .panel div.howToSessionPage{
+    float: left;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    line-height: 30px;
+    border-radius: 10px 10px 0 0;
+    /*margin-right: 10px;*/
+    cursor: pointer;
+}
+
+.panel div.newSessionPage{
+    width: 15%;
+    background: #4099FF;
+}
+
+.container{
+    width: 99%;
+    padding: 15px 10px 5px 10px;
+    clear: both;
+    background: rgba(173, 202, 241,0.5);
+    min-height: 200px;
+	max-height: 750px;
+    /*color: #FFFFFF;*/
+}
+
+
+.container .aboutPage i.icon-magnet{
+    margin: 0 5px 0 20px;
+}
+
+
+
+.tabListContent{
+    margin: 5px 0 0 0;
+    background: rgba(255,255,255,0.5);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
